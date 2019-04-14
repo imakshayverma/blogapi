@@ -30,6 +30,6 @@ python manage.py runserver
 ```
 
 ### License 
-
+[MIT](https://github.com/imakshayverma/blogapi/blob/master/LICENSE)
 
 
