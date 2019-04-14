@@ -16,11 +16,13 @@ Including another URLconf
 from django.conf import settings
 from django.conf.urls import include, url
 from django.conf.urls.static import static
+from django.views.generic import RedirectView
 from django.contrib import admin
 #from rest_framework.documentation import include_docs_urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^blog/', include("blog.urls")),
+    url(r'^$', RedirectView.as_view(url='/blog/')),
     #url(r'^docs/', include_docs_urls(title='Blog API Documentation - v1'))
 ]
