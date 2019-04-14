@@ -9,10 +9,10 @@ cd blogapi/
 
 # Optional if you dont have pip and venv
 sudo apt-get install python3-pip
-#sudo apt-get install python3-venv
+sudo apt-get install python3-venv
 
 # Create a Virtual Environment
-python3 -m venv
+python3 -m venv env
 source env/bin/activate
 
 # Install Dependencies
