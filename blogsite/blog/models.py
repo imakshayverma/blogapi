@@ -27,3 +27,6 @@ class Comment(models.Model) :
 
 	def __str__(self):
 		return self.comment_text[:20]
+
+	class Meta:
+		ordering = ['-timestamp']
