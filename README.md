@@ -19,6 +19,7 @@ source env/bin/activate
 pip3 install -r requirements.txt
 
 # Setup Database
+cd blogsite
 python manage.py migrate
 
 # Create Superuser/Admin
