@@ -1,6 +1,11 @@
 # Blog API
 > A simple Blog app that provides the facility to add blog posts and comments. 
 
+## Sample App
+Link to sample app - [Link](http://18.218.77.105:8000/blog/)
+
+## Documentation
+API Documentation - [Link](https://documenter.getpostman.com/view/7217440/S1ENzerJ)
 
 ## Installation
 ```
