@@ -17,7 +17,7 @@ from blog.pagination import PostListSetPagination
 # Create your views here.
 class PostListAPIView(ListAPIView):
     """
-    API endpoint that allows users to be list all the blog post available. 
+    Allows users to be list all the blog post available. 
     The populated list is paginated with a size of 5 post per page."
     """
     queryset = Post.objects.all()
@@ -27,7 +27,7 @@ class PostListAPIView(ListAPIView):
 
 class PostCreateAPIView(CreateAPIView):
     """
-    API endpoint that allows users add a blog post. 
+    Allows users add a blog post. 
     Require a Title and Text to create a post. 
     """
     serializer_class = PostSerializer
@@ -43,7 +43,7 @@ class PostCreateAPIView(CreateAPIView):
 
 class PostShowAPIView(RetrieveAPIView):
     """
-    API endpoint that details out a single blog post refered using a unique identifier.
+    Details out a single blog post refered using a unique identifier.
     """
     queryset = Post.objects.all()
     serializer_class = PostShowSerializer
@@ -51,7 +51,7 @@ class PostShowAPIView(RetrieveAPIView):
 
 class CommentCreateAPIView(CreateAPIView):
     """
-    API endpoint that allows users to comment on a paragraph in a blog post.
+    Allows users to comment on a paragraph in a blog post.
     Requires a paragraph id and the comment text to create a comment.  
     """
     serializer_class = CommentSerializer
