@@ -5,7 +5,7 @@
 Link to sample app - [Link](http://18.218.77.105:8000/blog/)
 
 ## Documentation
-Detailed API Documentation with examples - [Link](https://documenter.getpostman.com/view/7217440/S1ENzerJ)
+Detailed API Documentation with examples - [Link](https://documenter.getpostman.com/view/7217440/S1EQTyAi)
 
 ## Installation
 ```
